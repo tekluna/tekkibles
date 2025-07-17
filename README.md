@@ -1,46 +1,10 @@
-# Typecraft's Crucible 🛠️
+# Tekluna's tekkible 💾
+Modified version of [Typecraft's crucible](https://github.com/typecraft-dev/crucible) Arch linux setup script.
 
-An Arch Linux System Tool that automates the setup and configuration of an Arch Linux system with Gnome. It installs and configures packages, desktop environments, and various utilities to create a fully functional development environment.
+# Usage
+Just clones this repo. Running the run.sh script will install packages and flatpaks.
+    The list of packages is in the `packages.conf` file.
+    The list of flatpaks is in the `install-flatpaks.sh` file.
 
-## Features
-
-- 🔄 Automated system updates
-- 📦 Package installation by categories:
-  - System utilities
-  - Development tools
-  - System maintenance tools
-  - Desktop environment
-  - Office applications
-  - Media packages
-  - Fonts
-- 🛠️ Automatic installation of yay AUR helper
-- 🖥️ GNOME desktop environment setup with tiling-like features
-- 🎮 Flatpak integration for specific applications
-- ⚙️ Automatic service configuration
-- 🔧 GNOME extensions and hotkey configuration
-
-## Prerequisites
-
-- A fresh Arch Linux installation
-- Internet connection
-- sudo privileges
-
-## Installation
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/typecraft-dev/crucible.git
-```
-
-2. Run the setup script:
-
-```bash
-./run.sh
-```
-
-3. Follow the prompts to select the packages you want to install.
-
-4. The script will handle the rest of the setup process.
-
-5. After the setup is complete, you can reboot your system to see the changes.
+# Installation of the dotfiles
+To install the dotfiles, run the `dotfiles-setup.sh` script. It will clone and symlink the dotfiles using **gnu stow** from the `$DOTFILES_REPO`, which are set to be mine by default, but you can change it to your own.

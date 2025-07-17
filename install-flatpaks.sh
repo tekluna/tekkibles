@@ -1,7 +1,14 @@
 FLATPAKS=(
-  "spotify"
-  "discord"
-  "chrome"
+  "Vesktop"
+  "librewolf"
+  "Kolibri"
+  "Decoder"
+  "Notejot"
+  "Authenticator"
+  "Colorway"
+  "Fretboard"
+  "varia"
+  "FreeTube"
 )
 
 for pak in "${FLATPAKS[@]}"; do
