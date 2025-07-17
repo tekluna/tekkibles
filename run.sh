@@ -115,6 +115,9 @@ else
   . install-flatpaks.sh
 fi
 
+  echo "SIKE! Not quite done yet, still need to stow the dotfiles..."
+  . dotfiles-setup.sh 
+
 echo "Setup complete! You may want to reboot your system."
 end_logo (){
   cat << "EOF"
