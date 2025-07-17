@@ -10,13 +10,18 @@ Just clones this repo. Running the run.sh script will install packages and flatp
 
 # The dotfiles
 
-To install the dotfiles, run the `dotfiles-setup.sh` script. It will clone and symlink the dotfiles using **gnu stow** from the `$DOTFILES_REPO`, which are set to be mine by default, but you can change it to your own.
+To install the dotfiles, run the `dotfiles-setup.sh` script. It will clone and symlink the dotfiles using **gnu stow** from the `$REPO_URL`, which are set to be my [hyprtekdots](https://github.com/tekluna/hyprtekdotsj) dotfiles default, but you can change it to your own.
 
+(if you do change `$REPO_URL` to be make sure to also change line `31: cd "$REPO_URL/dotfiles"` if yours are not configured the same way)
 # Installation
 
-clone this repo
-`git clone https://github.com/tekluna/tekkibles.git`
+// clone this repo:
+```bash
+git clone https://github.com/tekluna/tekkibles.github
+```
 
-run the setup scripts
-`./run.sh`
-`./dotfiles-setup.sh`
+// run the setup scripts
+```bash
+./run.sh
+./dotfiles-setup.shjk
+```
