@@ -10,9 +10,9 @@ Just clones this repo. Running the run.sh script will install packages and flatp
 
 # The dotfiles
 
-To install the dotfiles, run the `dotfiles-setup.sh` script. It will clone and symlink the dotfiles using **gnu stow** from the `$REPO_URL`, which are set to be my [hyprtekdots](https://github.com/tekluna/hyprtekdotsj) dotfiles default, but you can change it to your own.
+The dotfiles `dotfiles-setup.sh` should install themselves when running `run.sh` script. It will clone and symlink the dotfiles using **gnu stow** from the `$REPO_URL`, which are set to be my [hyprtekdots](https://github.com/tekluna/hyprtekdotsj) dotfiles by default.
 
-(if you do change `$REPO_URL` to be make sure to also change line `31: cd "$REPO_URL/dotfiles"` if yours are not configured the same way)
+if you do change `$REPO_URL` to install your own dotfiles using the script, make sure to also change line `31: cd "$REPO_URL/dotfiles"` if yours are not configured the same way)
 # Installation
 
 // clone this repo:
